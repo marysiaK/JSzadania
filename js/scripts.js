@@ -8,8 +8,9 @@ span.each(function(index, element) {
 
 var paragraphs = $('p');
 paragraphs.each(function(index, element) {
+	var plusOneIndex = index + 1;
 
-var button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
+var button = '<button class="btn" data-tmp="' + plusOneIndex + '">Click me</button>'
 $(element).append(button) 
 
 });
